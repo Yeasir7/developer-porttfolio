@@ -81,6 +81,10 @@ padding: 18px 35px;
 }
 
 /* main section style*/
+main{
+    width: 1140px;
+    margin: 0 auto;
+}
 
 
 /*about section style */
@@ -100,4 +104,11 @@ font-weight: 700;
     color:  #757575;
 text-align: center;
 font-size: 18px;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
